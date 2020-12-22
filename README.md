@@ -54,6 +54,9 @@ class Development(Config):
     NO_LOAD = ['translation']
 ```
 
+##Deploy To Heroku
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/natxanss/GroupBotV2)
+
 If you can't have a config.py file (EG on heroku), it is also possible to use environment variables.
 The following env variables are supported:
  - `ENV`: Setting this to ANYTHING will enable env variables
