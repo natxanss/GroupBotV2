@@ -28,17 +28,12 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 
-❤❣   (>‿◠)✌   ❤❣
+Hello {}, Saya {} !
 
-Hello {}, MY NAME IS {} !
+Saya adalah bot manager untuk group!!
 
-I AM A FUNNIEST BUT STRICT GROUP MANAGER BOT
-I am Open Source and my Code can be Found [here](github.com/KshitijGagan/GroupBotV2)
-
-To Donate us Hit /donate
-You can get Support Here [Support Group](t.me/BotSupportGroup)
-
-Click /help or Help button below to find out more about, how to use me to my full potential.
+Ketik /help atau klik /help untuk melihat fitur lain di bot ini
+Terima Kasih. 
 
 
 """
@@ -47,11 +42,11 @@ HELP_STRINGS = """
 
 Hello! my name *{}*.
 
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
+*Menu Utama* tersedia:
+ - /start: memulai bot
+ - /help: mengetahui fitur bot.
+ - /help <module name>: memberi tau tentang informasi dari fitur tersebut.
+ - /donate: cara donasi
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
